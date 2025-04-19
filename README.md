@@ -1,6 +1,10 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🧠 FocusHub – Task Management Component
+
+A simple, accessible, and tested TaskList + TaskItem component built with React, TypeScript, and Tailwind CSS. Built as part of a frontend learning journey with a focus on testing, accessibility, and clean component architecture.
+
+\*\*\* This Project is under developing ! \*\*\*
 
 First, run the development server:
 
@@ -16,9 +20,64 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## 🚀 Features
+
+- ✅ Renders a list of tasks (TaskList)
+- ✅ Each task is toggleable and deletable (TaskItem)
+- ✅ Fully unit tested with Vitest
+- ✅ Snapshot tested
+- ✅ Accessibility tested with `jest-axe`
+- ✅ Storybook integration
+
+## 🛠️ Tech Stack
+
+- React
+- TypeScript
+- Tailwind CSS
+- Vitest & Testing Library
+- Storybook
+- jest-axe for a11y testing
+
+## 📦 Components
+
+### TaskList
+
+- Displays list of tasks with checkbox and delete button
+- Fully tested (unit, snapshot, accessibility)
+- View in Storybook: `npm run storybook`
+
+### TaskItem
+
+- Displays a single task with checkbox and delete button
+- Fully tested (unit, snapshot, accessibility)
+- View in Storybook: `npm run storybook`
+
+## 🧪 Run Tests
+
+.bash
+npm run test
+
+## 🧪 Run Storybook
+
+npm run storybook
+Open [http://localhost:6006](http://localhost:6006) with your browser to see the result.
+
+## 👀 Screenshots
+
+Open [public/Storybook screenshot (TaskList,TaskItem).png]
+
+## 📂 Folder Structure
+
+src/
+  components/
+    tasks/
+      task-item.tsx
+      task-list.tsx
+      __tests__/
+      task-item.stories.tsx
+
 
 ## Learn More
 
@@ -35,10 +94,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-## 📦 Components
+## 🙌 Author
 
-### TaskItem
-
-- Displays a single task with checkbox and delete button
-- Fully tested (unit, snapshot, accessibility)
-- View in Storybook: `npm run storybook`
+Saber Elmbaz

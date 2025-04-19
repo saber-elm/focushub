@@ -1,0 +1,95 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TaskList snapshots > matches snapshot with no tasks 1`] = `
+<DocumentFragment>
+  <p
+    class="text-gray-500"
+  >
+    No tasks yet.
+  </p>
+</DocumentFragment>
+`;
+
+exports[`TaskList snapshots > matches snapshot with tasks 1`] = `
+<DocumentFragment>
+  <ul
+    class="space-y-2 mt-4"
+  >
+    <li>
+      <div
+        class="flex justify-between border px-4 py-2 rounded"
+      >
+        <span
+          class="max-w-xl wrap-break-word min-w-1"
+        >
+          Task One
+        </span>
+        <div
+          class="flex items-center gap-4"
+        >
+          <div
+            class="space-x-1"
+          >
+            <input
+              class="text-blue-600 hover:underline"
+              data-testid="task-toggle"
+              id="task-1"
+              name="status"
+              type="checkbox"
+            />
+            <label
+              class="hover:underline"
+              for="task-1"
+            >
+              inComplete
+            </label>
+          </div>
+          <button
+            class="text-red-500 hover:underline"
+          >
+            ❌ Delete
+          </button>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        class="flex justify-between border px-4 py-2 rounded"
+      >
+        <span
+          class="line-through text-gray-400"
+        >
+          Task Two
+        </span>
+        <div
+          class="flex items-center gap-4"
+        >
+          <div
+            class="space-x-1"
+          >
+            <input
+              checked=""
+              class="text-blue-600 hover:underline"
+              data-testid="task-toggle"
+              id="task-2"
+              name="status"
+              type="checkbox"
+            />
+            <label
+              class="hover:underline"
+              for="task-2"
+            >
+              Completed
+            </label>
+          </div>
+          <button
+            class="text-red-500 hover:underline"
+          >
+            ❌ Delete
+          </button>
+        </div>
+      </div>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
